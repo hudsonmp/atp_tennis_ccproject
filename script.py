@@ -53,14 +53,6 @@ pearsonr, x = stats.pearsonr(tennis['win_percentage'], tennis['FirstServePointsW
 print(pearsonr)
 
 
-
-
-
-
-
-
-
-
 ## perform single feature linear regressions here:
 fpw = np.array(tennis['Wins`']).reshape(-1, 1)
 ranking = np.array(tennis['Ranking']).reshape(-1, 1)
